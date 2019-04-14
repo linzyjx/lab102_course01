@@ -14,3 +14,6 @@ target_link_libraries(Camera ${OpenCV_LIBS})
 
 add_executable(CameraThread thread.cpp)
 target_link_libraries(CameraThread  ${OpenCV_LIBS} -lpthread)
+
+add_executable(CameraOOP testCameraOOp.cpp)
+target_link_libraries(CameraOOP  ${OpenCV_LIBS} camera -lpthread)
