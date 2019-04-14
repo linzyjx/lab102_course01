@@ -12,4 +12,5 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 add_executable(Camera camera.cpp)
 target_link_libraries(Camera ${OpenCV_LIBS})
 
-
+add_executable(CameraThread thread.cpp)
+target_link_libraries(CameraThread  ${OpenCV_LIBS} -lpthread)
