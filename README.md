@@ -2,6 +2,7 @@
 Lab102课程演示代码，摄像头测试
 
 平台：Linux
+
 依赖：OpenCV 4
 
 * camera.cpp - 单线程
